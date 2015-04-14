@@ -1,8 +1,9 @@
-from django.test import TestCase
+from django.test import TestCase, LiveServerTestCase, Client
 from django.utils import timezone
 from ost_maintenance.models import Machine
 
 # Create your tests here.
+
 
 class MachineTest(TestCase):
     def test_create_machine(self):
@@ -10,6 +11,7 @@ class MachineTest(TestCase):
 
         machine.netbios_name = 'ALT_LAP001'
         machine.workgroup = 'Alterna'
+        machine.is_active = True
         machine.create_dt = timezone.now()
 
         machine.save()
@@ -27,3 +29,15 @@ class MachineTest(TestCase):
         self.assertEquals(only_machine.create_dt.hour, machine.create_dt.hour)
         self.assertEquals(only_machine.create_dt.minute, machine.create_dt.minute)
         self.assertEquals(only_machine.create_dt.second, machine.create_dt.second)
+
+
+class AdminTest(LiveServerTestCase):
+    def test_login(self):
+        c = Client()
+
+        response = c.get('/admin/')
+
+        self.assertEquals(response.status_code, 200)
+
+        self.assertTrue('Log in' in response.content)
+
