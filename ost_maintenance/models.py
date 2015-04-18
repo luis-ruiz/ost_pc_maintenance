@@ -23,7 +23,7 @@ class MaintenanceActivity(models.Model):
     is_active = models.BooleanField('activo', default=True)
 
     class Meta:
-        verbose_name = 'Activiad de mantenimiento'
+        verbose_name = 'Actividad de mantenimiento'
         verbose_name_plural = 'Actividades de mantenimiento'
 
     def __unicode__(self):
@@ -38,7 +38,7 @@ class MachineUserType(models.Model):
         verbose_name = 'Tipo de usuario'
         verbose_name_plural = 'Tipos de usuario'
 
-    def __str__(self):
+    def __unicode__(self):
         return self.user_type
 
 
@@ -80,15 +80,18 @@ class MachineMaintenanceComment(models.Model):
 class MachineUser(models.Model):
     machine = models.ForeignKey(Machine)
     user_type = models.ForeignKey(MachineUserType)
-    username = models.CharField('usuario o email', unique=True, max_length=75)
+    username = models.CharField('usuario o email', max_length=75)
     user_pass = models.CharField('contraseña', null=True, blank=True, max_length=15)
     first_name = models.CharField('nombre', null=True, blank=True, max_length=50)
     last_name = models.CharField('apellidos', null=True, blank=True, max_length=100)
     job = models.CharField('puesto', null=True, blank=True, max_length=50)
-    network_permissions = models.TextField('permisos de red')
+    network_permissions = models.TextField('permisos de red', null=True, blank=True)
     is_active = models.BooleanField(default=True)
     create_dt = models.DateField('fecha de alta')
     withdrawal_dt = models.DateField('fecha de baja', null=True, blank=True)
+
+    def __str__(self):
+        return self.username
 
     class Meta:
         verbose_name = 'Usuario de equipo'

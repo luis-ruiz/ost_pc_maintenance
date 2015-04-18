@@ -94,5 +94,13 @@
       "netbios_name": "ALT_LAP012",
       "withdrawal_dt": null},
     "model": "ost_maintenance.machine",
-    "pk": 12}
+    "pk": 12},
+  {"fields":
+    {"create_dt": "2015-03-02T16:17:44Z",
+      "is_active": true,
+      "workgroup": "ALTERNA",
+      "netbios_name": "ALTERNA-SERVER",
+      "withdrawal_dt": null},
+    "model": "ost_maintenance.machine",
+    "pk": 13}
 ]

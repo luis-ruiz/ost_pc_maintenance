@@ -1,0 +1,138 @@
+[
+{
+  "fields": {
+    "is_active": true,
+    "activity": "Acrobat Standard"
+  },
+  "model": "ost_maintenance.maintenanceactivity",
+  "pk": 1
+},
+{
+  "fields": {
+    "is_active": true,
+    "activity": "Office 365"
+  },
+  "model": "ost_maintenance.maintenanceactivity",
+  "pk": 2
+},
+{
+  "fields": {
+    "is_active": true,
+    "activity": "Antivirus"
+  },
+  "model": "ost_maintenance.maintenanceactivity",
+  "pk": 3
+},
+{
+  "fields": {
+    "is_active": true,
+    "activity": "VPN"
+  },
+  "model": "ost_maintenance.maintenanceactivity",
+  "pk": 4
+},
+{
+  "fields": {
+    "is_active": true,
+    "activity": "7zip"
+  },
+  "model": "ost_maintenance.maintenanceactivity",
+  "pk": 5
+},
+{
+  "fields": {
+    "is_active": true,
+    "activity": "HP OfficeJet 8600 Pro"
+  },
+  "model": "ost_maintenance.maintenanceactivity",
+  "pk": 6
+},
+{
+  "fields": {
+    "is_active": true,
+    "activity": "Zebra GX420t"
+  },
+  "model": "ost_maintenance.maintenanceactivity",
+  "pk": 7
+},
+{
+  "fields": {
+    "is_active": true,
+    "activity": "Zebra ZT410-230dpiZPL"
+  },
+  "model": "ost_maintenance.maintenanceactivity",
+  "pk": 8
+},
+{
+  "fields": {
+    "is_active": true,
+    "activity": "Software de dise\u00f1o Zebra"
+  },
+  "model": "ost_maintenance.maintenanceactivity",
+  "pk": 9
+},
+{
+  "fields": {
+    "is_active": true,
+    "activity": "Skype (Socios, Diego y Hector)"
+  },
+  "model": "ost_maintenance.maintenanceactivity",
+  "pk": 10
+},
+{
+  "fields": {
+    "is_active": true,
+    "activity": "Team Viewer"
+  },
+  "model": "ost_maintenance.maintenanceactivity",
+  "pk": 11
+},
+{
+  "fields": {
+    "is_active": true,
+    "activity": "Limpieza externa"
+  },
+  "model": "ost_maintenance.maintenanceactivity",
+  "pk": 12
+},
+{
+  "fields": {
+    "is_active": true,
+    "activity": "Limpieza interna (PC y Servidor)"
+  },
+  "model": "ost_maintenance.maintenanceactivity",
+  "pk": 13
+},
+{
+  "fields": {
+    "is_active": true,
+    "activity": "Limpieza de archivos temporales"
+  },
+  "model": "ost_maintenance.maintenanceactivity",
+  "pk": 14
+},
+{
+  "fields": {
+    "is_active": true,
+    "activity": "Desfragmentaci\u00f3n de disco duro"
+  },
+  "model": "ost_maintenance.maintenanceactivity",
+  "pk": 15
+},
+{
+  "fields": {
+    "is_active": true,
+    "activity": "Limpieza de registro"
+  },
+  "model": "ost_maintenance.maintenanceactivity",
+  "pk": 16
+},
+{
+  "fields": {
+    "is_active": true,
+    "activity": "Escaneo de virus"
+  },
+  "model": "ost_maintenance.maintenanceactivity",
+  "pk": 17
+}
+]

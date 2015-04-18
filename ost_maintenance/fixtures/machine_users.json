@@ -1,0 +1,597 @@
+[
+{
+  "fields": {
+    "username": "kmontoya",
+    "first_name": "Karla",
+    "last_name": "Montoya",
+    "is_active": true,
+    "user_type": 1,
+    "withdrawal_dt": null,
+    "machine": 1,
+    "job": "",
+    "user_pass": "kmontoya.alterna",
+    "create_dt": "2015-03-02",
+    "network_permissions": ""
+  },
+  "model": "ost_maintenance.machineuser",
+  "pk": 1
+},
+{
+  "fields": {
+    "username": "hcerqueda",
+    "first_name": "Humberto",
+    "last_name": "Cerqueda",
+    "is_active": true,
+    "user_type": 1,
+    "withdrawal_dt": null,
+    "machine": 2,
+    "job": "",
+    "user_pass": "hcerqueda.alterna",
+    "create_dt": "2015-03-02",
+    "network_permissions": ""
+  },
+  "model": "ost_maintenance.machineuser",
+  "pk": 2
+},
+{
+  "fields": {
+    "username": "lgarcia",
+    "first_name": "Laura",
+    "last_name": "García",
+    "is_active": true,
+    "user_type": 1,
+    "withdrawal_dt": null,
+    "machine": 3,
+    "job": "",
+    "user_pass": "lgarcia.alterna",
+    "create_dt": "2015-03-02",
+    "network_permissions": ""
+  },
+  "model": "ost_maintenance.machineuser",
+  "pk": 3
+},
+{
+  "fields": {
+    "username": "sin_usuario_1",
+    "first_name": "",
+    "last_name": "",
+    "is_active": true,
+    "user_type": 1,
+    "withdrawal_dt": null,
+    "machine": 4,
+    "job": "",
+    "user_pass": "",
+    "create_dt": "2015-03-02",
+    "network_permissions": ""
+  },
+  "model": "ost_maintenance.machineuser",
+  "pk": 4
+},
+{
+  "fields": {
+    "username": "yortiz",
+    "first_name": "Yvan",
+    "last_name": "Ortíz",
+    "is_active": true,
+    "user_type": 1,
+    "withdrawal_dt": null,
+    "machine": 5,
+    "job": "",
+    "user_pass": "JOROVICH35",
+    "create_dt": "2015-03-02",
+    "network_permissions": ""
+  },
+  "model": "ost_maintenance.machineuser",
+  "pk": 5
+},
+{
+  "fields": {
+    "username": "dzavala",
+    "first_name": "Diego",
+    "last_name": "Zavala",
+    "is_active": true,
+    "user_type": 1,
+    "withdrawal_dt": null,
+    "machine": 6,
+    "job": "",
+    "user_pass": "dzavala.alterna",
+    "create_dt": "2015-03-02",
+    "network_permissions": ""
+  },
+  "model": "ost_maintenance.machineuser",
+  "pk": 6
+},
+{
+  "fields": {
+    "username": "ipantoja",
+    "first_name": "Ivan",
+    "last_name": "Pantoja",
+    "is_active": true,
+    "user_type": 1,
+    "withdrawal_dt": null,
+    "machine": 7,
+    "job": "",
+    "user_pass": "ipantoja.alterna",
+    "create_dt": "2015-03-02",
+    "network_permissions": ""
+  },
+  "model": "ost_maintenance.machineuser",
+  "pk": 7
+},
+{
+  "fields": {
+    "username": "hperez",
+    "first_name": "Héctor",
+    "last_name": "Pérez",
+    "is_active": true,
+    "user_type": 1,
+    "withdrawal_dt": null,
+    "machine": 8,
+    "job": "",
+    "user_pass": "hperez.alterna",
+    "create_dt": "2015-03-02",
+    "network_permissions": ""
+  },
+  "model": "ost_maintenance.machineuser",
+  "pk": 8
+},
+{
+  "fields": {
+    "username": "iamaro",
+    "first_name": "Ismael",
+    "last_name": "Amaro",
+    "is_active": true,
+    "user_type": 1,
+    "withdrawal_dt": null,
+    "machine": 9,
+    "job": "",
+    "user_pass": "iamaro.alterna",
+    "create_dt": "2015-03-02",
+    "network_permissions": ""
+  },
+  "model": "ost_maintenance.machineuser",
+  "pk": 9
+},
+{
+  "fields": {
+    "username": "lnochebuena",
+    "first_name": "Leticia",
+    "last_name": "Nochebuena",
+    "is_active": true,
+    "user_type": 1,
+    "withdrawal_dt": null,
+    "machine": 10,
+    "job": "",
+    "user_pass": "lety.alterna",
+    "create_dt": "2015-03-02",
+    "network_permissions": ""
+  },
+  "model": "ost_maintenance.machineuser",
+  "pk": 10
+},
+{
+  "fields": {
+    "username": "lcervantes",
+    "first_name": "Leticia",
+    "last_name": "Cervantes",
+    "is_active": true,
+    "user_type": 1,
+    "withdrawal_dt": null,
+    "machine": 11,
+    "job": "",
+    "user_pass": "12*kipper",
+    "create_dt": "2015-03-02",
+    "network_permissions": ""
+  },
+  "model": "ost_maintenance.machineuser",
+  "pk": 11
+},
+{
+  "fields": {
+    "username": "adriana.s",
+    "first_name": "Adriana",
+    "last_name": "Sánchez",
+    "is_active": true,
+    "user_type": 1,
+    "withdrawal_dt": null,
+    "machine": 12,
+    "job": "",
+    "user_pass": "LIZZY1",
+    "create_dt": "2015-03-02",
+    "network_permissions": ""
+  },
+  "model": "ost_maintenance.machineuser",
+  "pk": 12
+},
+{
+  "fields": {
+    "username": "karla.m@alternacalidad.com",
+    "first_name": "Karla",
+    "last_name": "Montoya",
+    "is_active": true,
+    "user_type": 3,
+    "withdrawal_dt": null,
+    "machine": 1,
+    "job": "",
+    "user_pass": "",
+    "create_dt": "2015-03-02",
+    "network_permissions": ""
+  },
+  "model": "ost_maintenance.machineuser",
+  "pk": 13
+},
+{
+  "fields": {
+    "username": "humberto.c@alternacalidad.com",
+    "first_name": "Humberto",
+    "last_name": "Cerqueda",
+    "is_active": true,
+    "user_type": 3,
+    "withdrawal_dt": null,
+    "machine": 2,
+    "job": "",
+    "user_pass": "",
+    "create_dt": "2015-03-02",
+    "network_permissions": ""
+  },
+  "model": "ost_maintenance.machineuser",
+  "pk": 14
+},
+{
+  "fields": {
+    "username": "laura.g@alternacalidad.com",
+    "first_name": "Laura",
+    "last_name": "García",
+    "is_active": true,
+    "user_type": 3,
+    "withdrawal_dt": null,
+    "machine": 3,
+    "job": "",
+    "user_pass": "",
+    "create_dt": "2015-03-02",
+    "network_permissions": ""
+  },
+  "model": "ost_maintenance.machineuser",
+  "pk": 15
+},
+{
+  "fields": {
+    "username": "yvan.o@alternacalidad.com",
+    "first_name": "Yvan",
+    "last_name": "Ortíz",
+    "is_active": true,
+    "user_type": 3,
+    "withdrawal_dt": null,
+    "machine": 5,
+    "job": "",
+    "user_pass": "",
+    "create_dt": "2015-03-02",
+    "network_permissions": ""
+  },
+  "model": "ost_maintenance.machineuser",
+  "pk": 16
+},
+{
+  "fields": {
+    "username": "diego.z@alternacalidad.com",
+    "first_name": "Diego",
+    "last_name": "Zavala",
+    "is_active": true,
+    "user_type": 3,
+    "withdrawal_dt": null,
+    "machine": 6,
+    "job": "",
+    "user_pass": "",
+    "create_dt": "2015-03-02",
+    "network_permissions": ""
+  },
+  "model": "ost_maintenance.machineuser",
+  "pk": 17
+},
+{
+  "fields": {
+    "username": "ivan.p@alternacalidad.com",
+    "first_name": "Ivan",
+    "last_name": "Pantoja",
+    "is_active": true,
+    "user_type": 3,
+    "withdrawal_dt": null,
+    "machine": 7,
+    "job": "",
+    "user_pass": "",
+    "create_dt": "2015-03-02",
+    "network_permissions": ""
+  },
+  "model": "ost_maintenance.machineuser",
+  "pk": 18
+},
+{
+  "fields": {
+    "username": "hector.p@alternacalidad.com",
+    "first_name": "Héctor",
+    "last_name": "Pérez",
+    "is_active": true,
+    "user_type": 3,
+    "withdrawal_dt": null,
+    "machine": 8,
+    "job": "",
+    "user_pass": "",
+    "create_dt": "2015-03-02",
+    "network_permissions": ""
+  },
+  "model": "ost_maintenance.machineuser",
+  "pk": 19
+},
+{
+  "fields": {
+    "username": "ismael.a@alternacalidad.com",
+    "first_name": "Ismael",
+    "last_name": "Amaro",
+    "is_active": true,
+    "user_type": 3,
+    "withdrawal_dt": null,
+    "machine": 9,
+    "job": "",
+    "user_pass": "",
+    "create_dt": "2015-03-02",
+    "network_permissions": ""
+  },
+  "model": "ost_maintenance.machineuser",
+  "pk": 20
+},
+{
+  "fields": {
+    "username": "leticia.n@alternacalidad.com",
+    "first_name": "Leticia",
+    "last_name": "Nochebuena",
+    "is_active": true,
+    "user_type": 3,
+    "withdrawal_dt": null,
+    "machine": 10,
+    "job": "",
+    "user_pass": "",
+    "create_dt": "2015-03-02",
+    "network_permissions": ""
+  },
+  "model": "ost_maintenance.machineuser",
+  "pk": 21
+},
+{
+  "fields": {
+    "username": "l.cervantes@alternacalidad.com",
+    "first_name": "Leticia",
+    "last_name": "Cervantes",
+    "is_active": true,
+    "user_type": 3,
+    "withdrawal_dt": null,
+    "machine": 11,
+    "job": "",
+    "user_pass": "",
+    "create_dt": "2015-03-02",
+    "network_permissions": ""
+  },
+  "model": "ost_maintenance.machineuser",
+  "pk": 22
+},
+{
+  "fields": {
+    "username": "adriana.s@alternacalidad.com",
+    "first_name": "Adriana",
+    "last_name": "Sánchez",
+    "is_active": true,
+    "user_type": 3,
+    "withdrawal_dt": null,
+    "machine": 12,
+    "job": "",
+    "user_pass": "",
+    "create_dt": "2015-03-02",
+    "network_permissions": ""
+  },
+  "model": "ost_maintenance.machineuser",
+  "pk": 23
+},
+{
+  "fields": {
+    "username": "kmontoya",
+    "first_name": "Karla",
+    "last_name": "Montoya",
+    "is_active": true,
+    "user_type": 2,
+    "withdrawal_dt": null,
+    "machine": 1,
+    "job": "",
+    "user_pass": "",
+    "create_dt": "2015-03-02",
+    "network_permissions": ""
+  },
+  "model": "ost_maintenance.machineuser",
+  "pk": 24
+},
+{
+  "fields": {
+    "username": "hcerqueda",
+    "first_name": "Humberto",
+    "last_name": "Cerqueda",
+    "is_active": true,
+    "user_type": 2,
+    "withdrawal_dt": null,
+    "machine": 2,
+    "job": "",
+    "user_pass": "",
+    "create_dt": "2015-03-02",
+    "network_permissions": ""
+  },
+  "model": "ost_maintenance.machineuser",
+  "pk": 25
+},
+{
+  "fields": {
+    "username": "lgarcia",
+    "first_name": "Laura",
+    "last_name": "García",
+    "is_active": true,
+    "user_type": 2,
+    "withdrawal_dt": null,
+    "machine": 3,
+    "job": "",
+    "user_pass": "",
+    "create_dt": "2015-03-02",
+    "network_permissions": ""
+  },
+  "model": "ost_maintenance.machineuser",
+  "pk": 26
+},
+{
+  "fields": {
+    "username": "yvano",
+    "first_name": "Yvan",
+    "last_name": "Ortíz",
+    "is_active": true,
+    "user_type": 2,
+    "withdrawal_dt": null,
+    "machine": 5,
+    "job": "",
+    "user_pass": "",
+    "create_dt": "2015-03-02",
+    "network_permissions": ""
+  },
+  "model": "ost_maintenance.machineuser",
+  "pk": 27
+},
+{
+  "fields": {
+    "username": "dzavala",
+    "first_name": "Diego",
+    "last_name": "Zavala",
+    "is_active": true,
+    "user_type": 2,
+    "withdrawal_dt": null,
+    "machine": 6,
+    "job": "",
+    "user_pass": "",
+    "create_dt": "2015-03-02",
+    "network_permissions": ""
+  },
+  "model": "ost_maintenance.machineuser",
+  "pk": 28
+},
+{
+  "fields": {
+    "username": "ipantoja",
+    "first_name": "Ivan",
+    "last_name": "Pantoja",
+    "is_active": true,
+    "user_type": 2,
+    "withdrawal_dt": null,
+    "machine": 7,
+    "job": "",
+    "user_pass": "",
+    "create_dt": "2015-03-02",
+    "network_permissions": ""
+  },
+  "model": "ost_maintenance.machineuser",
+  "pk": 29
+},
+{
+  "fields": {
+    "username": "hperez",
+    "first_name": "Héctor",
+    "last_name": "Pérez",
+    "is_active": true,
+    "user_type": 2,
+    "withdrawal_dt": null,
+    "machine": 8,
+    "job": "",
+    "user_pass": "",
+    "create_dt": "2015-03-02",
+    "network_permissions": ""
+  },
+  "model": "ost_maintenance.machineuser",
+  "pk": 30
+},
+{
+  "fields": {
+    "username": "iamaro",
+    "first_name": "Ismael",
+    "last_name": "Amaro",
+    "is_active": true,
+    "user_type": 2,
+    "withdrawal_dt": null,
+    "machine": 9,
+    "job": "",
+    "user_pass": "",
+    "create_dt": "2015-03-02",
+    "network_permissions": ""
+  },
+  "model": "ost_maintenance.machineuser",
+  "pk": 31
+},
+{
+  "fields": {
+    "username": "lnochebuena",
+    "first_name": "Leticia",
+    "last_name": "Nochebuena",
+    "is_active": true,
+    "user_type": 2,
+    "withdrawal_dt": null,
+    "machine": 10,
+    "job": "",
+    "user_pass": "",
+    "create_dt": "2015-03-02",
+    "network_permissions": ""
+  },
+  "model": "ost_maintenance.machineuser",
+  "pk": 32
+},
+{
+  "fields": {
+    "username": "lcervantes",
+    "first_name": "Leticia",
+    "last_name": "Cervantes",
+    "is_active": true,
+    "user_type": 2,
+    "withdrawal_dt": null,
+    "machine": 11,
+    "job": "",
+    "user_pass": "",
+    "create_dt": "2015-03-02",
+    "network_permissions": ""
+  },
+  "model": "ost_maintenance.machineuser",
+  "pk": 33
+},
+{
+  "fields": {
+    "username": "adrianas",
+    "first_name": "Adriana",
+    "last_name": "Sánchez",
+    "is_active": true,
+    "user_type": 2,
+    "withdrawal_dt": null,
+    "machine": 12,
+    "job": "",
+    "user_pass": "",
+    "create_dt": "2015-03-02",
+    "network_permissions": ""
+  },
+  "model": "ost_maintenance.machineuser",
+  "pk": 34
+},
+{
+  "fields": {
+    "username": "alterna-admin",
+    "first_name": "",
+    "last_name": "",
+    "is_active": true,
+    "user_type": 1,
+    "withdrawal_dt": null,
+    "machine": 13,
+    "job": "",
+    "user_pass": "Altecon0205",
+    "create_dt": "2015-03-02",
+    "network_permissions": ""
+  },
+  "model": "ost_maintenance.machineuser",
+  "pk": 35
+}
+]
