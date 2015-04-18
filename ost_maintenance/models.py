@@ -45,23 +45,29 @@ class MachineUserType(models.Model):
 class MachineMaintenance(models.Model):
     machine = models.ForeignKey(Machine)
     schedule_dt = models.DateField('fecha programada', null=True, blank=True)
-    maintenance_dt = models.DateField('fecha de mantenimiento')
+    maintenance_dt = models.DateField('fecha de mantenimiento', null=True, blank=True)
 
     class Meta:
         verbose_name = 'Mantenimiento de equipo'
         verbose_name_plural = 'Mantenimientos de equipo'
+
+    def __unicode__(self):
+        return self.machine.netbios_name
 
 
 class MachineMaintenanceActivity(models.Model):
     machine_maintenance = models.ForeignKey(MachineMaintenance)
     maintenance_activity = models.ForeignKey(MaintenanceActivity)
     complete = models.BooleanField(default=False)
-    comments = models.TextField('comentarios de mantenimiento')
+    comments = models.TextField('comentarios de mantenimiento', null=True, blank=True)
     user = models.ForeignKey(User)
 
     class Meta:
         verbose_name = 'Actividad de mantenimiento de equipo'
         verbose_name_plural = 'Actividades de mantenimiento de equipo'
+
+    def __unicode__(self):
+        return self.maintenance_activity.activity
 
 
 class MachineMaintenanceComment(models.Model):

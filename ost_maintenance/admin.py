@@ -6,7 +6,7 @@ from .models import MachineMaintenanceRequest, MachineMaintenanceRequestDetail
 
 class MachineUserAdmin(admin.ModelAdmin):
     list_display = ('username', 'user_type', 'first_name', 'last_name')
-    list_filter = ['user_type',]
+    list_filter = ['user_type', ]
 
 
 class MachineMaintenanceActivityInline(admin.TabularInline):
@@ -20,6 +20,8 @@ class MachineMaintenanceCommentInline(admin.TabularInline):
 
 
 class MachineMaintenanceAdmin(admin.ModelAdmin):
+    ordering = ['machine', 'maintenance_dt']
+    list_display = ('machine', 'maintenance_dt', 'schedule_dt')
     inlines = [MachineMaintenanceActivityInline, MachineMaintenanceCommentInline]
 
 
@@ -30,6 +32,11 @@ class MachineMaintenanceRequestDetailInline(admin.TabularInline):
 
 class MachineMaintenanceRequestAdmin(admin.ModelAdmin):
     inlines = [MachineMaintenanceRequestDetailInline]
+
+    def get_form(self, request, *args, **kwargs):
+        form = super(MachineMaintenanceRequestAdmin, self).get_form(request, *args, **kwargs)
+        form.base_fields['user'].initial = request.user
+        return form
 
 admin.site.register(Machine)
 admin.site.register(MaintenanceActivity)

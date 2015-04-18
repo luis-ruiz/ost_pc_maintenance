@@ -134,5 +134,29 @@
   },
   "model": "ost_maintenance.maintenanceactivity",
   "pk": 17
+},
+{
+  "fields": {
+    "is_active": true,
+    "activity": "Instalaci\u00f3n de actualizaciones"
+  },
+  "model": "ost_maintenance.maintenanceactivity",
+  "pk": 18
+},
+{
+  "fields": {
+    "is_active": true,
+    "activity": "Monitoreo de servicios"
+  },
+  "model": "ost_maintenance.maintenanceactivity",
+  "pk": 19
+},
+{
+  "fields": {
+    "is_active": true,
+    "activity": "Monitoreo de uso de espacio en disco"
+  },
+  "model": "ost_maintenance.maintenanceactivity",
+  "pk": 20
 }
 ]
