@@ -1,0 +1,9 @@
+[
+{
+  "fields": {
+    "customer_name": "Alternativas Confiables, S.C."
+  },
+  "model": "ost_maintenance.customer",
+  "pk": 1
+}
+]

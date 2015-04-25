@@ -1,0 +1,119 @@
+[
+{
+  "fields": {
+    "machine": 1,
+    "schedule_dt": null,
+    "maintenance_dt": "2015-02-28"
+  },
+  "model": "ost_maintenance.machinemaintenance",
+  "pk": 1
+},
+{
+  "fields": {
+    "machine": 2,
+    "schedule_dt": null,
+    "maintenance_dt": "2015-02-28"
+  },
+  "model": "ost_maintenance.machinemaintenance",
+  "pk": 2
+},
+{
+  "fields": {
+    "machine": 3,
+    "schedule_dt": null,
+    "maintenance_dt": "2015-02-28"
+  },
+  "model": "ost_maintenance.machinemaintenance",
+  "pk": 3
+},
+{
+  "fields": {
+    "machine": 4,
+    "schedule_dt": null,
+    "maintenance_dt": "2015-03-07"
+  },
+  "model": "ost_maintenance.machinemaintenance",
+  "pk": 4
+},
+{
+  "fields": {
+    "machine": 5,
+    "schedule_dt": null,
+    "maintenance_dt": "2015-03-07"
+  },
+  "model": "ost_maintenance.machinemaintenance",
+  "pk": 5
+},
+{
+  "fields": {
+    "machine": 6,
+    "schedule_dt": null,
+    "maintenance_dt": "2015-02-28"
+  },
+  "model": "ost_maintenance.machinemaintenance",
+  "pk": 6
+},
+{
+  "fields": {
+    "machine": 7,
+    "schedule_dt": null,
+    "maintenance_dt": "2015-03-07"
+  },
+  "model": "ost_maintenance.machinemaintenance",
+  "pk": 7
+},
+{
+  "fields": {
+    "machine": 8,
+    "schedule_dt": null,
+    "maintenance_dt": "2015-03-07"
+  },
+  "model": "ost_maintenance.machinemaintenance",
+  "pk": 8
+},
+{
+  "fields": {
+    "machine": 9,
+    "schedule_dt": null,
+    "maintenance_dt": "2015-03-15"
+  },
+  "model": "ost_maintenance.machinemaintenance",
+  "pk": 9
+},
+{
+  "fields": {
+    "machine": 10,
+    "schedule_dt": null,
+    "maintenance_dt": "2015-03-15"
+  },
+  "model": "ost_maintenance.machinemaintenance",
+  "pk": 10
+},
+{
+  "fields": {
+    "machine": 11,
+    "schedule_dt": null,
+    "maintenance_dt": "2015-03-15"
+  },
+  "model": "ost_maintenance.machinemaintenance",
+  "pk": 11
+},
+{
+  "fields": {
+    "machine": 12,
+    "schedule_dt": null,
+    "maintenance_dt": "2015-03-15"
+  },
+  "model": "ost_maintenance.machinemaintenance",
+  "pk": 12
+},
+{
+  "fields": {
+    "machine": 13,
+    "schedule_dt": null,
+    "maintenance_dt": "2015-03-30"
+  },
+  "model": "ost_maintenance.machinemaintenance",
+  "pk": 13
+}
+]

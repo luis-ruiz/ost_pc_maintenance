@@ -3,12 +3,24 @@ from django.db import models
 from django.contrib.auth.models import User
 
 
+class Customer(models.Model):
+    customer_name = models.CharField('Cliente', unique=True, null=False, blank=False, max_length=255)
+
+    class Meta:
+        verbose_name = 'Cliente'
+        verbose_name_plural = 'Clientes'
+
+    def __unicode__(self):
+        return self.customer_name
+
+
 class Machine(models.Model):
     netbios_name = models.CharField('nombre de red', unique=True, null=False, blank=False, max_length=10)
     workgroup = models.CharField('grupo de trabajo', null=False, blank=False, max_length=10)
     is_active = models.BooleanField('activo', default=True)
     create_dt = models.DateTimeField('fecha de alta', null=False, blank=False)
     withdrawal_dt = models.DateField('fecha de baja', null=True, blank=True)
+    customer = models.ForeignKey(Customer, null=False, blank=False)
 
     class Meta:
         verbose_name = 'Equipo'

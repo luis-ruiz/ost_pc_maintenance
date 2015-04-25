@@ -1,7 +1,11 @@
 from django.contrib import admin
 from .models import Machine, MaintenanceActivity, MachineUserType, MachineMaintenance
 from .models import MachineMaintenanceActivity, MachineMaintenanceComment, MachineUser
-from .models import MachineMaintenanceRequest, MachineMaintenanceRequestDetail
+from .models import MachineMaintenanceRequest, MachineMaintenanceRequestDetail, Customer
+
+
+class CustomerAdmin(admin.ModelAdmin):
+    model = Customer
 
 
 class MachineUserAdmin(admin.ModelAdmin):
@@ -38,6 +42,7 @@ class MachineMaintenanceRequestAdmin(admin.ModelAdmin):
         form.base_fields['user'].initial = request.user
         return form
 
+admin.site.register(Customer)
 admin.site.register(Machine)
 admin.site.register(MaintenanceActivity)
 admin.site.register(MachineUserType)

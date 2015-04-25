@@ -1,0 +1,26 @@
+[
+{
+  "fields": {
+    "is_active": true,
+    "user_type": "Usuario de equipo"
+  },
+  "model": "ost_maintenance.machineusertype",
+  "pk": 1
+},
+{
+  "fields": {
+    "is_active": true,
+    "user_type": "Usuario de red"
+  },
+  "model": "ost_maintenance.machineusertype",
+  "pk": 2
+},
+{
+  "fields": {
+    "is_active": true,
+    "user_type": "Correo electr\u00f3nico"
+  },
+  "model": "ost_maintenance.machineusertype",
+  "pk": 3
+}
+]
